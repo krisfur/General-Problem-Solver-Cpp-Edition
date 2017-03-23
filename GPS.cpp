@@ -35,7 +35,7 @@ void GPS(const std::vector<std::string> finalResult, std::vector<std::string> in
             std::cout << "---------------" << std::endl;
 
 
-            //do operations
+            //do operations - find a way of checking the best order of operations instead of jumping before looking
             for(int i = 0; i<ops.size();++i){
                 //find a way to print out name of the operation here
                 std::vector<std::string> op = ops[i];
