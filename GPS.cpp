@@ -37,6 +37,7 @@ void GPS(const std::vector<std::string> finalResult, std::vector<std::string> in
 
             //do operations
             for(int i = 0; i<ops.size();++i){
+                //find a way to print out name of the operation here
                 std::vector<std::string> op = ops[i];
                 deleteFromList(op[i],initialConditions);
 
